@@ -40,7 +40,7 @@ export const Login = () => {
       //REDIRECCIONAMIENTO
       setTimeout(() => {
         window.location.reload();
-      }, 2000);
+      }, 1000);
 
     }else{
       setSaved("error")
